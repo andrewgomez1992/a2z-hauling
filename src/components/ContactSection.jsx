@@ -7,21 +7,20 @@ const PageSection = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: start;
-  justify-items: center; /* Ensures both items are centered horizontally */
-  padding: 80px 20px;
+  justify-items: center;
+  padding: 60px 20px;
   background-color: #fff;
-  max-width: 1200px; /* Constrain max width for better centering */
-  margin: 0 auto; /* Center the entire grid on the page */
+  max-width: 1200px;
+  margin: 0 auto;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr; /* Stacks in a column for smaller screens */
+    grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
   }
 `;
 
 const InfoContainer = styled.div`
-  max-width: 500px;
   padding-top: 20px;
 
   @media (max-width: 768px) {

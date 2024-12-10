@@ -4,12 +4,12 @@ import garagejunk from "../assets/garagejunk.webp";
 
 const Section = styled.section`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #222;
   color: white;
   padding: 60px 20px;
-  gap: 20px;
+  gap: 50px;
 
   @media (max-width: 768px) {
     flex-direction: column-reverse; /* Stack items on smaller screens */

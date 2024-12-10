@@ -10,6 +10,7 @@ import HowItWorks from "./components/HowItWorks";
 import Reviews from "./components/Reviews";
 import Maps from "./components/Maps";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Reviews />
       <Maps />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 }
