@@ -5,7 +5,7 @@ import placeholder from "../assets/herobackground.webp"; // Replace with your ac
 const HeroSection = styled.section`
   position: relative;
   background: url(${placeholder}) no-repeat center center/cover;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: flex-start; /* Align text to the left */
   align-items: center;

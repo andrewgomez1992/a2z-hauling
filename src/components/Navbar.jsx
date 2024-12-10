@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logoplaceholder from "../assets/logoplaceholder.png";
+import logoplaceholder from "../assets/logoplaceholder.webp";
 
 const NavbarContainer = styled.nav`
   display: flex;
@@ -19,7 +19,7 @@ const NavbarContainer = styled.nav`
 
 const Logo = styled.div`
   img {
-    width: 100px;
+    width: 80px;
   }
 `;
 
