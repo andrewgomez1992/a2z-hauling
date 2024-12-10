@@ -16,6 +16,7 @@ const HeroSection = styled.section`
   @media (max-width: 768px) {
     background-position: center top;
     padding: 0 20px;
+    height: 60vh;
   }
 `;
 
