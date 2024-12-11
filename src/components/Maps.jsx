@@ -55,9 +55,9 @@ function MapComponent() {
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32023.646247464394!2d-121.3010592!3d37.9577016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80905e6c016bae99%3A0x4b019a79f80f26c3!2sStockton%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1696774557183!5m2!1sen!2s",
     },
     {
-      name: "Sacramento",
+      name: "Turlock",
       embedUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32023.646247464394!2d-121.4944!3d38.5815719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae6565c7e9cb1%3A0x4b019a79f80f26c3!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1696774557183!5m2!1sen!2s",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.2530377497656!2d-120.8433612!3d37.4942313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809105d55bffb34f%3A0x81d3c7554aa4f966!2sTurlock%2C%20CA%2095771%2C%20USA!5e0!3m2!1sen!2s!4v1696774557183!5m2!1sen!2s",
     },
   ];
 
