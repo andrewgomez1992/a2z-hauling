@@ -150,7 +150,7 @@ function ServicesAndStory() {
             Merced, and more.
           </p>
           <p>
-            Founded in 2015 by visionary entrepreneur James Bolin, our company
+            Founded in 2024 by visionary entrepreneur James Bolin, our company
             has quickly become a trusted name in junk removal and hauling
             services. We proudly serve residential, commercial, and industrial
             clients, helping them reclaim their spaces with ease. Our mission is

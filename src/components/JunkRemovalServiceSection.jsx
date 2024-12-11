@@ -94,7 +94,7 @@ function JunkRemovalServiceSection() {
           your home, garage, or office, we’re here to help!
         </p>
         <p>
-          Our company was established in 2015 and has been committed to
+          Our company was established in 2024 and has been committed to
           providing high-quality service at a reasonable price. From{" "}
           <strong>garage cleanouts</strong> to{" "}
           <strong>appliance removal</strong>, we ensure a smooth and hassle-free
