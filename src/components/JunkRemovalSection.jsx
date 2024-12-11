@@ -23,7 +23,7 @@ const TextContainer = styled.div`
 
   h2 {
     font-size: 2rem;
-    color: #008080;
+    color: #04f7ff;
     margin-bottom: 20px;
   }
 
@@ -40,7 +40,7 @@ const TextContainer = styled.div`
 
       &:before {
         content: "✔";
-        color: #008080;
+        color: #04f7ff;
         font-weight: bold;
         margin-right: 10px;
         flex-shrink: 0; /* Prevents icon from shrinking */
@@ -52,7 +52,7 @@ const TextContainer = styled.div`
       }
 
       strong {
-        color: #008080;
+        color: #04f7ff;
       }
 
       a {
@@ -69,8 +69,9 @@ const TextContainer = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #008080;
-  color: white;
+  background-color: #04f7ff;
+  color: #333333;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;

@@ -19,7 +19,7 @@ const SectionTitle = styled.h2`
 
 const Subtitle = styled.p`
   text-align: center;
-  color: #0077c8;
+  color: #000b2a;
   font-size: 1.2rem;
   margin-bottom: 40px;
 `;
@@ -104,7 +104,7 @@ const StoryText = styled.div`
     }
 
     strong {
-      color: #008080;
+      color: #000b2a;
     }
   }
 `;

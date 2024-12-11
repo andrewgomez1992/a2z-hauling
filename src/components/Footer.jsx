@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  background-color: #222;
+  background-color: #000b2a;
   color: white;
   padding: 40px 20px;
   display: flex;
@@ -11,8 +11,10 @@ const FooterContainer = styled.footer`
   gap: 20px;
 
   @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center sections horizontally */
+    text-align: center; /* Center-align text within sections */
+    padding: 30px 10px; /* Adjust padding for better spacing */
   }
 `;
 
@@ -23,8 +25,8 @@ const Section = styled.div`
   h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #008080;
-    border-bottom: 2px solid #008080;
+    color: #f2f2f2;
+    border-bottom: 2px solid #04f7ff;
     display: inline-block;
     padding-bottom: 5px;
   }
@@ -33,18 +35,18 @@ const Section = styled.div`
     list-style: none;
     padding: 0;
     margin: 0;
-    color: #aaa;
+    color: #f2f2f2;
 
     li {
       margin: 8px 0;
 
       a {
         text-decoration: none;
-        color: #aaa;
+        color: #f2f2f2;
         transition: color 0.3s;
 
         &:hover {
-          color: #008080;
+          color: #04f7ff;
         }
       }
     }
@@ -52,10 +54,10 @@ const Section = styled.div`
 
   p {
     margin: 5px 0;
-    color: #aaa;
+    color: #f2f2f2;
 
     a {
-      color: #008080;
+      color: #f2f2f2;
       font-weight: bold;
       text-decoration: none;
 
@@ -96,7 +98,9 @@ const Footer = () => {
         <h3>Contact Us</h3>
         <p>Call or Text:</p>
         <p>
-          <a href="tel:2091231234">(209) 123-1234</a>
+          <a style={{ color: "#04f7ff" }} href="tel:2091231234">
+            (209) 123-1234
+          </a>
         </p>
         <p>
           <a href="#terms">Terms and Conditions</a>

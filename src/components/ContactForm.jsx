@@ -25,7 +25,7 @@ const FormContainer = styled.div`
 
 const Title = styled.h2`
   font-size: 1rem; /* Increased from 1rem to 1.5rem */
-  color: #333;
+  color: #000b2a;
   margin-bottom: 20px;
 `;
 
@@ -43,7 +43,7 @@ const Input = styled.input`
   outline: none;
 
   &:focus {
-    border-color: #008080;
+    border-color: #04f7ff;
     box-shadow: 0 0 5px rgba(0, 128, 128, 0.5); /* Adjusted color to match teal */
   }
 `;
@@ -56,14 +56,14 @@ const TextArea = styled.textarea`
   outline: none;
 
   &:focus {
-    border-color: #008080;
+    border-color: #04f7ff;
     box-shadow: 0 0 5px rgba(0, 128, 128, 0.5); /* Adjusted color to match teal */
   }
 `;
 
 const SubmitButton = styled.button`
   padding: 15px; /* Increased from 12px to 15px */
-  background-color: #008080;
+  background-color: #000b2a;
   color: white;
   font-size: 1.3rem; /* Increased from 1.2rem to 1.3rem */
   font-weight: bold;
@@ -115,7 +115,7 @@ function ContactForm() {
           Call <strong>(209) 123-1234</strong> or fill out the form below!
         </Title>
         {isSubmitted ? (
-          <p style={{ color: "#008080", fontSize: "1.2rem" }}>
+          <p style={{ color: "#04f7ff", fontSize: "1.2rem" }}>
             Thank you! Your message has been sent.
           </p>
         ) : (

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FaTruck, FaRecycle, FaTree } from "react-icons/fa";
 
 const FeaturesSection = styled.section`
-  background-color: #f8f9fa;
+  background-color: #000b2a;
   padding: 60px 20px;
   text-align: center;
 `;
@@ -29,20 +29,20 @@ const FeatureItem = styled.div`
 
 const IconContainer = styled.div`
   font-size: 3rem;
-  color: #008080;
+  color: #04f7ff;
   margin-bottom: 15px;
 `;
 
 const FeatureTitle = styled.h3`
   font-size: 1.5rem;
-  color: #333;
+  color: #f2f2f2;
   margin-bottom: 10px;
   font-weight: bold;
 `;
 
 const FeatureDescription = styled.p`
   font-size: 1rem;
-  color: #555;
+  color: #f2f2f2;
   line-height: 1.5;
   max-width: 400px;
 `;

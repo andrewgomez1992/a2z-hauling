@@ -22,7 +22,7 @@ const Title = styled.h2`
 const Underline = styled.div`
   width: 80px;
   height: 4px;
-  background-color: #0077c8;
+  background-color: #000b2a;
   margin: 10px auto 30px;
 `;
 
@@ -52,7 +52,7 @@ const Step = styled.div`
 
 const Icon = styled.div`
   font-size: 3rem;
-  color: #008080;
+  color: #04f7ff;
 `;
 
 const StepTitle = styled.h3`
@@ -62,8 +62,9 @@ const StepTitle = styled.h3`
 
 const Button = styled.button`
   margin-top: 30px;
-  background-color: #008080;
-  color: white;
+  background-color: #000b2a;
+  color: #f2f2f2;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;

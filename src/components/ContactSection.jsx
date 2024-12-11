@@ -39,7 +39,7 @@ const InfoHighlight = styled.p`
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: #008080;
+  color: #000b2a;
   font-weight: bold;
 `;
 
@@ -50,7 +50,7 @@ const InfoText = styled.p`
   color: #555;
 
   strong {
-    color: #008080;
+    color: #000b2a;
   }
 `;
 
@@ -68,7 +68,7 @@ const List = styled.ul`
 
     &:before {
       content: "✔";
-      color: #008080;
+      color: #000b2a;
       font-weight: bold;
     }
   }

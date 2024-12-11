@@ -4,19 +4,19 @@ import styled from "styled-components";
 const Section = styled.section`
   text-align: center;
   padding: 60px 20px;
-  background-color: #f8f9fa;
+  background-color: #000b2a;
 `;
 
 const Title = styled.h2`
   font-size: 2rem;
-  color: #333;
+  color: #f2f2f2;
   margin-bottom: 10px;
 `;
 
 const Underline = styled.div`
-  width: 80px;
+  width: 200px;
   height: 4px;
-  background-color: #0077c8;
+  background-color: #04f7ff;
   margin: 10px auto 30px;
 `;
 
@@ -43,7 +43,7 @@ const Slide = styled.div`
 
   h3 {
     font-size: 1.2rem;
-    color: #0077c8;
+    color: #555;
     margin-bottom: 10px;
   }
 
@@ -73,7 +73,7 @@ const Dot = styled.button`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: ${(props) => (props.$active ? "#0077c8" : "#ccc")};
+  background-color: ${(props) => (props.$active ? "#04f7ff" : "#ccc")};
   border: none;
   cursor: pointer;
 
