@@ -11,10 +11,6 @@ const Section = styled.section`
   padding: 50px 20px;
   background-color: #f0f4ff;
   text-align: center;
-
-  @media (max-width: 768px) {
-    padding: 40px 10px;
-  }
 `;
 
 const Title = styled.h2`
@@ -46,7 +42,6 @@ const ValuesGrid = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
   }
 `;
 
