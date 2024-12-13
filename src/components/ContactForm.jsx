@@ -16,56 +16,74 @@ const Section = styled.section`
 
 const FormContainer = styled.div`
   flex: 1;
-  max-width: 600px;
+  max-width: 500px;
   background: white;
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%; /* Ensures the form takes full width in its container */
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    max-width: 100%;
+  }
 `;
 
 const Title = styled.h2`
-  font-size: 1rem; /* Increased from 1rem to 1.5rem */
+  font-size: 1.5rem;
   color: #000b2a;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const Form = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Increased from 15px to 20px */
+  gap: 20px;
 `;
 
 const Input = styled.input`
-  padding: 15px; /* Increased from 12px to 15px */
-  font-size: 1.1rem; /* Increased from 1rem to 1.1rem */
+  padding: 15px;
+  font-size: 1.1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
   outline: none;
 
   &:focus {
     border-color: #04f7ff;
-    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5); /* Adjusted color to match teal */
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem; /* Adjust font size for smaller screens */
   }
 `;
 
 const TextArea = styled.textarea`
-  padding: 15px; /* Increased from 12px to 15px */
-  font-size: 1.1rem; /* Increased from 1rem to 1.1rem */
+  padding: 15px;
+  font-size: 1.1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
   outline: none;
 
   &:focus {
     border-color: #04f7ff;
-    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5); /* Adjusted color to match teal */
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
   }
 `;
 
 const SubmitButton = styled.button`
-  padding: 15px; /* Increased from 12px to 15px */
+  padding: 15px;
   background-color: #000b2a;
   color: white;
-  font-size: 1.3rem; /* Increased from 1.2rem to 1.3rem */
+  font-size: 1.3rem;
   font-weight: bold;
   border: none;
   border-radius: 5px;
@@ -77,6 +95,11 @@ const SubmitButton = styled.button`
 
   &:active {
     transform: scale(0.95);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    padding: 12px;
   }
 `;
 
