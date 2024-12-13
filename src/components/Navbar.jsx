@@ -29,8 +29,8 @@ const Logo = styled(Link)`
     @media (max-width: 768px) {
       width: 80px;
       position: relative;
-      top: 5px;
-      right: 5px;
+      top: -2px;
+      right: 15px;
     }
   }
 `;
