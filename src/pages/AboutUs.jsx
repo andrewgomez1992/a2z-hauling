@@ -7,6 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import Reviews from "../components/Reviews";
 import OurPromise from "../components/OurPromise";
 import CoreValues from "../components/CoreValues";
+import ScrollToTop from "../components/ScrollToTopButton";
 
 const AboutUsSection = styled.section`
   position: relative;
@@ -89,6 +90,7 @@ const AboutUs = () => {
       <CoreValues />
       <OurPromise />
       <Footer />
+      <ScrollToTop />
     </>
   );
 };
