@@ -1,6 +1,9 @@
+// src/components/Navbar.jsx
+
 import React, { useState } from "react";
 import styled from "styled-components";
 import logo from "../assets/hha2z.png";
+import { Link, NavLink } from "react-router-dom";
 import houselogo from "../assets/justhouse.png";
 import QuoteButton from "./QuoteButton";
 
@@ -19,7 +22,7 @@ const NavbarContainer = styled.nav`
   }
 `;
 
-const Logo = styled.div`
+const Logo = styled(Link)`
   img {
     width: 220px;
 
@@ -54,13 +57,19 @@ const NavLinks = styled.ul`
   }
 `;
 
-const NavLink = styled.li`
+const MenuLink = styled(NavLink)`
   font-size: 1rem;
   color: #f2f2f2;
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: #ffffff;
+  }
+
+  &.active {
+    color: #04f7ff;
+    border-bottom: 2px solid #04f7ff;
   }
 
   @media (max-width: 768px) {
@@ -111,13 +120,17 @@ function Navbar() {
 
   return (
     <NavbarContainer>
-      <Logo>
+      <Logo to="/">
         <picture>
           <source srcSet={houselogo} media="(max-width: 768px)" />
           <img src={logo} alt="Big Blue Junk Removal" />
         </picture>
       </Logo>
-      <Hamburger onClick={() => setIsOpen(!isOpen)}>
+      <Hamburger
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label={isOpen ? "Close Menu" : "Open Menu"}
+        aria-expanded={isOpen}
+      >
         {isOpen ? (
           <img
             src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png"
@@ -131,13 +144,25 @@ function Navbar() {
         )}
       </Hamburger>
       <NavLinks $isOpen={isOpen}>
-        <NavLink>Home</NavLink>
-        <NavLink>About Us</NavLink>
-        <NavLink>Services</NavLink>
-        <NavLink>Locations</NavLink>
-        <NavLink>Contact Us</NavLink>
+        <MenuLink to="/" end onClick={() => setIsOpen(false)}>
+          Home
+        </MenuLink>
+        <MenuLink to="/about-us" onClick={() => setIsOpen(false)}>
+          About Us
+        </MenuLink>
+        <MenuLink to="/services" onClick={() => setIsOpen(false)}>
+          Services
+        </MenuLink>
+        <MenuLink to="/locations" onClick={() => setIsOpen(false)}>
+          Locations
+        </MenuLink>
+        <MenuLink to="/contact-us" onClick={() => setIsOpen(false)}>
+          Contact Us
+        </MenuLink>
         <PhoneLink href="tel:2091231234">(209) 123-1234</PhoneLink>
-        <QuoteButton>Get A Free Quote</QuoteButton>
+        <QuoteButton onClick={() => setIsOpen(false)}>
+          Get A Free Quote
+        </QuoteButton>
       </NavLinks>
     </NavbarContainer>
   );

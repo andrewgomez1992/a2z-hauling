@@ -1,33 +1,26 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import ContactSection from "./components/ContactSection";
-import ServicesAndStory from "./components/ServicesAndStory";
-import JunkRemovalSection from "./components/JunkRemovalSection";
-import JunkRemovalServiceSection from "./components/JunkRemovalServiceSection";
-import HowItWorks from "./components/HowItWorks";
-import Reviews from "./components/Reviews";
-import Maps from "./components/Maps";
-import Footer from "./components/Footer";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
+import Locations from "./pages/Locations";
+import ContactUs from "./pages/ContactUs";
+import AutoScrollToTop from "./util/AutoScrollToTop";
 
 function App() {
   return (
-    <>
+    <Router>
+      <AutoScrollToTop />
       <Navbar />
-      <Hero />
-      <ContactSection />
-      <Features />
-      <ServicesAndStory />
-      <JunkRemovalSection />
-      <JunkRemovalServiceSection />
-      <HowItWorks />
-      <Reviews />
-      <Maps />
-      <Footer />
-      <ScrollToTopButton />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/locations" element={<Locations />} />{" "}
+        <Route path="/contact-us" element={<ContactUs />} />{" "}
+      </Routes>
+    </Router>
   );
 }
 

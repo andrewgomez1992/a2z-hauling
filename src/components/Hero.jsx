@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import placeholder from "../assets/herobackground.webp";
+import james2 from "../assets/james2.webp";
 import QuoteButton from "./QuoteButton";
 import PhoneButton from "./PhoneButton";
 
@@ -18,7 +18,7 @@ const fadeInUp = keyframes`
 
 const HeroSection = styled.section`
   position: relative;
-  background: url(${placeholder}) no-repeat center center/cover;
+  background: url(${james2}) no-repeat center center/cover;
   height: 80vh;
   display: flex;
   justify-content: flex-start; /* Align text to the left on desktop */
