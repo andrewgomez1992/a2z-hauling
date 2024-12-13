@@ -82,6 +82,9 @@ const Footer = () => {
             <a href="#appliance-removal">Appliance Removal</a>
           </li>
           <li>
+            <a href="#dirt-removal">Dirt Removal</a>
+          </li>
+          <li>
             <a href="#about">About</a>
           </li>
           <li>
