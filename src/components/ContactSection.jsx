@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 import ContactForm from "./ContactForm";
 
 const PageSection = styled.section`
@@ -74,13 +75,34 @@ const List = styled.ul`
   }
 `;
 
+// Motion Variants
+const formVariants = {
+  hidden: { opacity: 0, y: 50 }, // Starts below the viewport
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: "easeOut",
+    },
+  },
+};
+
 function ContactSection() {
   return (
     <PageSection>
-      <ContactForm
-        title="Call (209) 123-1234 or fill out the form below!"
-        onSubmit={(data) => console.log("Form submitted:", data)}
-      />
+      {/* Contact Form with Framer Motion */}
+      <motion.div
+        variants={formVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+      >
+        <ContactForm
+          title="Call (209) 123-1234 or fill out the form below!"
+          onSubmit={(data) => console.log("Form submitted:", data)}
+        />
+      </motion.div>
       <InfoContainer>
         <InfoTitle>Same Day Junk Removal</InfoTitle>
         <InfoHighlight>
