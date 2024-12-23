@@ -22,7 +22,7 @@ const TextContainer = styled.div`
   h2 {
     font-size: 2.5rem; /* Matches OurPromise */
     margin-bottom: 20px;
-    color: #000b2a;
+    color: #0378ff;
 
     @media (max-width: 768px) {
       text-align: center;
@@ -60,7 +60,7 @@ const TextContainer = styled.div`
 
         span {
           font-weight: bold;
-          color: #000b2a; /* Darker blue for emphasis */
+          color: #0378ff; /* Darker blue for emphasis */
         }
       }
     }
@@ -70,7 +70,6 @@ const TextContainer = styled.div`
 const ImageContainer = styled.div`
   img {
     width: 100%;
-    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 `;

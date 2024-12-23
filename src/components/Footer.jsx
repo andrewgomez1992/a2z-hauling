@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  background-color: #000b2a;
+  background-color: #000000;
   color: white;
   padding: 40px 20px;
   display: flex;
@@ -26,7 +26,7 @@ const Section = styled.div`
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #f2f2f2;
-    border-bottom: 2px solid #04f7ff;
+    border-bottom: 2px solid #0378ff;
     display: inline-block;
     padding-bottom: 5px;
   }
@@ -46,7 +46,7 @@ const Section = styled.div`
         transition: color 0.3s;
 
         &:hover {
-          color: #04f7ff;
+          color: #0378ff;
         }
       }
     }
@@ -101,7 +101,7 @@ const Footer = () => {
         <h3>Contact Us</h3>
         <p>Call or Text:</p>
         <p>
-          <a style={{ color: "#04f7ff" }} href="tel:2091231234">
+          <a style={{ color: "#0378ff" }} href="tel:2091231234">
             (209) 123-1234
           </a>
         </p>

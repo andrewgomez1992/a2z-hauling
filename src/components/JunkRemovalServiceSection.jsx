@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import garagejunk from "../assets/garagejunk.webp";
+import QuoteButton from "./QuoteButton";
 
 const Section = styled.section`
   display: flex;
@@ -23,7 +24,7 @@ const TextContainer = styled.div`
 
   h2 {
     font-size: 2rem;
-    color: #04f7ff;
+    color: #0378ff;
     margin-bottom: 20px;
   }
 
@@ -33,11 +34,11 @@ const TextContainer = styled.div`
     color: #ddd;
 
     strong {
-      color: #04f7ff;
+      color: #0378ff;
     }
 
     a {
-      color: #0077c8;
+      color: #0378ff;
       text-decoration: none;
       font-weight: bold;
 
@@ -49,8 +50,8 @@ const TextContainer = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #04f7ff;
-  color: #333333;
+  background-color: #0378ff;
+  color: #ffffff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border: none;
@@ -74,7 +75,6 @@ const ImageContainer = styled.div`
 
   img {
     width: 100%;
-    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 `;
@@ -111,7 +111,9 @@ function JunkRemovalServiceSection() {
           free quote and see why we’re the #1 choice for junk removal in
           Modesto!
         </p>
-        <Button>Get A Free Quote</Button>
+        <QuoteButton href="#quote" aria-label="Get a free quote">
+          Get A Free Quote
+        </QuoteButton>
       </TextContainer>
     </Section>
   );

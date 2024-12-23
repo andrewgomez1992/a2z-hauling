@@ -19,7 +19,6 @@ const FormContainer = styled.div`
   max-width: 500px;
   background: white;
   padding: 40px;
-  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   width: 100%; /* Ensures the form takes full width in its container */
 
@@ -31,7 +30,7 @@ const FormContainer = styled.div`
 
 const Title = styled.h2`
   font-size: 1.5rem;
-  color: #000b2a;
+  color: #0378ff;
   margin-bottom: 20px;
 
   @media (max-width: 768px) {
@@ -49,11 +48,10 @@ const Input = styled.input`
   padding: 15px;
   font-size: 1.1rem;
   border: 1px solid #ddd;
-  border-radius: 5px;
   outline: none;
 
   &:focus {
-    border-color: #04f7ff;
+    border-color: #efefef;
     box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
   }
 
@@ -66,11 +64,10 @@ const TextArea = styled.textarea`
   padding: 15px;
   font-size: 1.1rem;
   border: 1px solid #ddd;
-  border-radius: 5px;
   outline: none;
 
   &:focus {
-    border-color: #04f7ff;
+    border-color: #efefef;
     box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
   }
 
@@ -81,7 +78,7 @@ const TextArea = styled.textarea`
 
 const SubmitButton = styled.button`
   padding: 15px;
-  background-color: #000b2a;
+  background-color: #0378ff;
   color: white;
   font-size: 1.3rem;
   font-weight: bold;
@@ -138,7 +135,7 @@ function ContactForm() {
           Call <strong>(209) 123-1234</strong> or fill out the form below!
         </Title>
         {isSubmitted ? (
-          <p style={{ color: "#04f7ff", fontSize: "1.2rem" }}>
+          <p style={{ color: "#2b2b2b", fontSize: "1.2rem" }}>
             Thank you! Your message has been sent.
           </p>
         ) : (

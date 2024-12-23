@@ -24,8 +24,6 @@ const MapCard = styled.div`
   flex: 1;
   min-width: 300px;
   max-width: 400px;
-  /* border: 1px solid #ccc; */
-  border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 

@@ -15,7 +15,7 @@ const Section = styled.section`
 
 const Title = styled.h2`
   font-size: 2.5rem;
-  color: #000b2a;
+  color: #0378ff;
   margin-bottom: 10px;
 
   @media (max-width: 768px) {
@@ -52,7 +52,6 @@ const ValueCard = styled.div`
   text-align: center;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 200px;
 
@@ -64,7 +63,7 @@ const ValueCard = styled.div`
 
   h3 {
     font-size: 1.2rem;
-    color: #000b2a;
+    color: #0378ff;
     margin-bottom: 10px;
   }
 

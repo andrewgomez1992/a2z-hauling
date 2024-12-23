@@ -33,7 +33,7 @@ const TextContainer = styled.div`
   h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #000b2a;
+    color: #0378ff;
 
     @media (max-width: 768px) {
       text-align: center;
@@ -83,7 +83,6 @@ const ImageContainer = styled.div`
     width: 100%;
     max-width: 400px; /* Restrict max width for large screens */
     margin: 0 auto;
-    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
     @media (max-width: 768px) {

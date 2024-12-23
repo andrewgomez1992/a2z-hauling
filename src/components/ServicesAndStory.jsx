@@ -1,4 +1,3 @@
-// src/components/ServicesAndStory.jsx
 import React from "react";
 import styled from "styled-components";
 import furnitureremoval from "../assets/furnitureremoval.webp";
@@ -20,7 +19,7 @@ const SectionTitle = styled.h2`
 
 const Subtitle = styled.p`
   text-align: center;
-  color: #000b2a;
+  color: #0378ff;
   font-size: 1.2rem;
   margin-bottom: 40px;
 `;
@@ -40,7 +39,6 @@ const ServiceCard = styled.div`
   position: relative;
   background-size: cover;
   height: 200px;
-  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;

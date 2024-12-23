@@ -50,7 +50,7 @@ const StoryText = styled.div`
     }
 
     strong {
-      color: #000b2a;
+      color: #0378ff;
     }
   }
 `;
@@ -58,7 +58,6 @@ const StoryText = styled.div`
 const StoryImage = styled.div`
   img {
     width: 100%;
-    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 `;

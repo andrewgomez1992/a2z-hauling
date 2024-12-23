@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Section = styled.section`
   text-align: center;
   padding: 60px 20px;
-  background-color: #000b2a;
+  background-color: #0378ff;
 `;
 
 const Title = styled.h2`
@@ -16,7 +16,7 @@ const Title = styled.h2`
 const Underline = styled.div`
   width: 200px;
   height: 4px;
-  background-color: #04f7ff;
+  background-color: #0378ff;
   margin: 10px auto 30px;
 `;
 
@@ -38,7 +38,6 @@ const Slide = styled.div`
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: white;
-  border-radius: 10px;
   text-align: left;
 
   h3 {
@@ -73,7 +72,7 @@ const Dot = styled.button`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: ${(props) => (props.$active ? "#04f7ff" : "#ccc")};
+  background-color: ${(props) => (props.$active ? "#0378ff" : "#ccc")};
   border: none;
   cursor: pointer;
 

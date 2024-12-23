@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledQuoteButton = styled.button`
-  background-color: #04f7ff;
-  color: #333333;
+  background-color: #00db33;
+  color: #ffffff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border: none;
@@ -14,7 +14,8 @@ const StyledQuoteButton = styled.button`
   width: auto; /* Allow button to shrink to content */
 
   &:hover {
-    background-color: #fff;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
   }
 
   @media (max-width: 768px) {

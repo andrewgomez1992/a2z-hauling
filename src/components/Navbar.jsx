@@ -10,7 +10,7 @@ const NavbarContainer = styled.nav`
   justify-content: space-between;
   align-items: center !important;
   padding: 15px 30px;
-  background-color: #000b2a;
+  background-color: #0378ff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   width: 100%;
@@ -46,7 +46,7 @@ const NavLinks = styled.ul`
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #000b2a; /* Match navbar background */
+    background-color: #0378ff; /* Match navbar background */
     color: #f2f2f2; /* Super light grey for mobile links */
     padding: 20px 0;
     flex-direction: column;
@@ -66,8 +66,8 @@ const MenuLink = styled(NavLink)`
   }
 
   &.active {
-    color: #04f7ff;
-    border-bottom: 2px solid #04f7ff;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
   }
 
   @media (max-width: 768px) {
@@ -78,7 +78,7 @@ const MenuLink = styled(NavLink)`
 
 const PhoneLink = styled.a`
   font-size: 1.2rem;
-  color: #04f7ff;
+  color: #202020;
   text-decoration: none;
   font-weight: bold;
 
@@ -109,7 +109,7 @@ const Hamburger = styled.div`
   img {
     width: 30px;
     height: 30px;
-    filter: invert(85%); /* Makes the icon light grey */
+    filter: invert(95%); /* Makes the icon light grey */
   }
 `;
 

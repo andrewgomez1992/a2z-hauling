@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FaTruck, FaRecycle, FaTree } from "react-icons/fa";
 
 const FeaturesSection = styled.section`
-  background-color: #000b2a;
+  background-color: #0378ff;
   padding: 60px 20px;
   text-align: center;
 `;
@@ -29,7 +29,7 @@ const FeatureItem = styled.div`
 
 const IconContainer = styled.div`
   font-size: 3rem;
-  color: #04f7ff;
+  color: #ffffff;
   margin-bottom: 15px;
 `;
 
