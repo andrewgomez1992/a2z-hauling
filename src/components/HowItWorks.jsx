@@ -103,9 +103,11 @@ function HowItWorks() {
           </Step>
         ))}
       </Grid>
-      <QuoteButton href="#quote" aria-label="Get a free quote">
-        Get A Free Quote
-      </QuoteButton>
+      <div style={{ marginTop: "20px" }}>
+        <QuoteButton href="#quote" aria-label="Get a free quote">
+          Get A Free Quote
+        </QuoteButton>
+      </div>
     </Section>
   );
 }

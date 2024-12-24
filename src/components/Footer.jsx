@@ -11,10 +11,10 @@ const FooterContainer = styled.footer`
   gap: 20px;
 
   @media (max-width: 768px) {
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center sections horizontally */
-    text-align: center; /* Center-align text within sections */
-    padding: 30px 10px; /* Adjust padding for better spacing */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
   }
 `;
 
@@ -68,48 +68,73 @@ const Section = styled.div`
   }
 `;
 
+const BottomBar = styled.div`
+  background-color: #0378ff; /* Matches the blue accents */
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`;
+
 const Footer = () => {
   return (
-    <FooterContainer>
-      {/* Sitemap Section */}
-      <Section>
-        <h3>Sitemap</h3>
-        <ul>
-          <li>
-            <a href="#furniture-removal">Furniture Removal</a>
-          </li>
-          <li>
-            <a href="#appliance-removal">Appliance Removal</a>
-          </li>
-          <li>
-            <a href="#dirt-removal">Dirt Removal</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#locations">Locations</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </Section>
+    <>
+      <FooterContainer>
+        {/* Sitemap Section */}
+        <Section>
+          <h3>Sitemap</h3>
+          <ul>
+            <li>
+              <a href="#furniture-removal">Furniture Removal</a>
+            </li>
+            <li>
+              <a href="#appliance-removal">Appliance Removal</a>
+            </li>
+            <li>
+              <a href="#dirt-removal">Dirt Removal</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#locations">Locations</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </Section>
 
-      {/* Contact Section */}
-      <Section>
-        <h3>Contact Us</h3>
-        <p>Call or Text:</p>
-        <p>
-          <a style={{ color: "#0378ff" }} href="tel:2091231234">
-            (209) 123-1234
-          </a>
-        </p>
-        <p>
-          <a href="#terms">Terms and Conditions</a>
-        </p>
-      </Section>
-    </FooterContainer>
+        {/* Contact Section */}
+        <Section>
+          <h3>Contact Us</h3>
+          <p>Call or Text:</p>
+          <p>
+            <a style={{ color: "#0378ff" }} href="tel:2091231234">
+              (209) 123-1234
+            </a>
+          </p>
+          <p>
+            <a href="#terms">Terms and Conditions</a>
+          </p>
+        </Section>
+      </FooterContainer>
+      <BottomBar>
+        &copy; {new Date().getFullYear()} Hometown Hauling A2Z. All Rights
+        Reserved. <a href="#privacy-policy">Privacy Policy</a>
+      </BottomBar>
+    </>
   );
 };
 
