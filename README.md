@@ -1,9 +1,53 @@
-# React + Vite
+<h1 align="center">🚛 A2Z Hauling</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Built%20With-React-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Styled--Components-DB7093?logo=styled-components&logoColor=white" alt="Styled Components" />
+  <img src="https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel" alt="Hosting: Vercel" />
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# a2z-hauling
+**A2Z Hauling** is a fast, mobile-friendly web app built for a professional junk removal business. The design focuses on bold branding, smooth user flow, and instant access to quotes and services.
+
+---
+
+## 💡 Highlights
+
+- 🚀 Instant call-to-action: Get A Free Quote
+- 📞 Direct phone tap support for mobile
+- 🧼 Clean design focused on trust & clarity
+- 🧱 Modular, scalable components
+- 🌎 Built with SEO-ready semantic structure
+
+---
+
+## 🔧 Tech Stack
+
+- ⚛️ React (with Vite)
+- 💅 Styled Components
+- 🧭 Responsive Layouts
+- ☁️ Vercel (recommended deployment)
+- 📍 Google Maps Embed for service area
+
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/your-username/a2z-hauling
+cd a2z-hauling
+npm install
+npm run dev
+```
+
+---
+
+## 🔗 Live Site
+
+👉 [a2z-hauling.vercel.app](https://a2z-hauling.vercel.app)
+
+---
+
+> Helping real businesses clean up — one job at a time. ♻️
